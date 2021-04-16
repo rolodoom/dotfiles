@@ -1,0 +1,4 @@
+# Set spell checker for local account
+set speller "aspell -x -c"
+set softwrap
+set linenumbers
