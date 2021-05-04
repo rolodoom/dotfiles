@@ -126,3 +126,6 @@ fi
 
 # cargo bin path
 export PATH=$HOME/.cargo/bin:$PATH
+
+# SSH Github
+eval $(keychain --eval github)
