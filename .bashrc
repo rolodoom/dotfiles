@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 
+
 # hide working directory
 if [[ ${EUID} == 0 ]] ; then
 	export PS1='\[\033[01;32m\]>_ \h \[\033[00m\]\[\033[00;32m\][\W]\[\033[00m\] $ '
@@ -124,8 +125,10 @@ else
 	export PS1='\[\033[01;37m\]>_ \h \[\033[00m\]\[\033[00;37m\][\W]\[\033[00m\] $ '
 fi
 
-# cargo bin path
-export PATH=$HOME/.cargo/bin:$PATH
 
-# SSH Github
-eval $(keychain --eval github)
+# NPM Global
+export PATH=~/.npm-global/bin:$PATH
+
+
+# CARGO
+export PATH=$HOME/.cargo/bin:$PATH
