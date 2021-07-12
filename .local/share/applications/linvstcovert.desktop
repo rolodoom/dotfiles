@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LinVst
+GenericName=LinVst
+Comment=Linux Windows vst wrapper/bridge
+Exec=linvstconvert
+Icon=linvstconvert
+Terminal=false
+Type=Application
+Categories=AudioVideo;X-AudioEditing;Qt;
+
