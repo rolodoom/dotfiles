@@ -132,3 +132,4 @@ export PATH=~/.npm-global/bin:$PATH
 
 # CARGO
 export PATH=$HOME/.cargo/bin:$PATH
+
