@@ -6,5 +6,5 @@ Exec=linvstconvert
 Icon=linvstconvert
 Terminal=false
 Type=Application
-Categories=AudioVideo;X-AudioEditing;Qt;
+Categories=X-AudioEditing;
 
