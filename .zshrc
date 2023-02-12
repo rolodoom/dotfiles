@@ -17,6 +17,9 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 
 
+# Local bin
+export PATH="$HOME/.bin:$PATH"
+
 # NODEJS
 export PATH=~/.npm-global/bin:$PATH
 
@@ -30,7 +33,7 @@ export PATH="$HOME/.gems/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
 
 # JAVA
-export JAVA_HOME="/usr/lib/jvm/java-18-openjdk"
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk/"
 export PATH="$JAVA_HOME/bin:$PATH"
 # Fix font alias for Java
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
@@ -39,6 +42,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 #ANDROID
 export ANDROID_HOME="$HOME/Android/Sdk"
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/emulator:$PATH"
 export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 
 # Clear history for the current terminal session
@@ -46,6 +50,8 @@ export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 
 # ALIASES
 alias ll="ls -alF"
+alias dcu="docker-compose up -d"
+alias dcd="docker-compose down"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -11,14 +11,18 @@ export PATH="$HOME/.gems/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
 
 # JAVA
-export JAVA_HOME=/usr/bin/java
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk/"
+export PATH="$JAVA_HOME/bin:$PATH"
 # Fix font alias for Java
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp'
+#export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 
-# Clear history for the current terminal session
-#local HISTSIZE=0
+#ANDROID
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
+# ALIASES
+alias ll="ls -alF"
+alias dcu="docker-compose up -d"
+alias dcd="docker-compose down"
