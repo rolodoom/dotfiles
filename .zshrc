@@ -1,3 +1,17 @@
+#  _______   _______
+# |  _____| |  ___  |
+# | |       | |   | |
+# | |       | |___| |
+# |_|       |_______|
+#  _         _______     Rolando Ramos Torres (@rolodoom)
+# | |       |  ___  |    https://github.com/rolodoom
+# | |       | |   | |
+# | |_____  | |___| |
+# |_______| |_______|
+#
+# My zsh config. Not much to see here; just some pretty standard stuff.
+
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.

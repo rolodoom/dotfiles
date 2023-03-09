@@ -1,3 +1,16 @@
+#  _______   _______
+# |  _____| |  ___  |
+# | |       | |   | |
+# | |       | |___| |
+# |_|       |_______|
+#  _         _______     Rolando Ramos Torres (@rolodoom)
+# | |       |  ___  |    https://github.com/rolodoom
+# | |       | |   | |
+# | |_____  | |___| |
+# |_______| |_______|
+#
+# My bash config. Not much to see here; just some pretty standard stuff.
+
 #
 # ~/.bashrc
 #
