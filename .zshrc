@@ -50,8 +50,10 @@ export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
 
 # ALIASES
 alias ll="ls -alF"
+alias dk="docker"
 alias dcu="docker-compose up -d"
 alias dcd="docker-compose down"
+alias vi="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
