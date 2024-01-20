@@ -11,7 +11,7 @@
 #
 # A customized .nanorc for nano (https://www.nano-editor.org/)
 
-# Set spell checker for local account
-set speller "aspell -x -c"
+include /usr/share/nano-syntax-highlighting/*.nanorc
+set constantshow
 set softwrap
 set linenumbers
