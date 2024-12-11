@@ -1,0 +1,21 @@
+{
+  // Trust
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.windows": "zsh",
+  "terminal.integrated.fontFamily": "\"MesloLGS NF\", monospace",
+  "terminal.integrated.fontSize": 16,
+  // Editor
+  "editor.fontFamily": "\"Fira Code\", Consolas, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.fontLigatures": true,
+  // -> Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  // THEMES
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Monokai"
+}
