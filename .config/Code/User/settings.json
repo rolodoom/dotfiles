@@ -17,5 +17,9 @@
   "prettier.semi": false,
   // THEMES
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "One Monokai"
+  "workbench.colorTheme": "One Monokai",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "One Monokai",
+  // GIT
+  "git.confirmSync": false
 }
