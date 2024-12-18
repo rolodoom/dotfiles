@@ -18,8 +18,10 @@
   // THEMES
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Monokai",
-  "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "One Monokai",
+  // Window
+  "window.titleBarStyle": "custom",
+  "window.autoDetectColorScheme": true,
   // GIT
   "git.confirmSync": false
 }
