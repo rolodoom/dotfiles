@@ -3,25 +3,48 @@
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.enabled": false,
   // Terminal Settings
-  "terminal.integrated.defaultProfile.windows": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontFamily": "\"MesloLGS NF\", monospace",
   "terminal.integrated.fontSize": 16,
   // Editor
   "editor.fontFamily": "\"Fira Code\", Consolas, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.fontLigatures": true,
-  // -> Prettier
+  "editor.minimap.enabled": false,
+  // Prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  // THEMES
-  "workbench.iconTheme": "material-icon-theme",
+  // Workbench
   "workbench.colorTheme": "One Monokai",
   "workbench.preferredDarkColorTheme": "One Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
   // Window
   "window.titleBarStyle": "custom",
   "window.autoDetectColorScheme": true,
-  // GIT
-  "git.confirmSync": false
+  // Git
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+
+  // -----------------------------------------
+  // L A N G s
+  // -----------------------------------------
+
+  // PYTHON
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+  "git.autofetch": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
