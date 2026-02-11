@@ -73,3 +73,17 @@ Build Jekyll for production
 ```bash
 bundle exec jekyll build --config _config.production.yaml,_config.yaml --incremental
 ```
+
+## Mogrify
+
+Create webp thumbnails in a directory, size 512x512
+
+```bash
+mogrify -path thumbs/ -format webp -gravity center -resize 512x512^ -extent 512x512 *.jpg
+```
+
+Convert all images in a directory to webp
+
+```bash
+mogrify -path webp/ -format webp *.jpg
+```
