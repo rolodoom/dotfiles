@@ -1,0 +1,71 @@
+{
+  // Trust
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  // Terminal Settings
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "\"MesloLGS NF\", monospace",
+  "terminal.integrated.fontSize": 15,
+  // Editor
+  "editor.fontFamily": "\"Fira Code\", Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  // Workbench
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  // Window
+  "window.titleBarStyle": "custom",
+  "window.autoDetectColorScheme": true,
+  // Git
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+
+  // -----------------------------------------
+  // L A N G s
+  // -----------------------------------------
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+  "git.autofetch": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+
+  // -----------------------------------------
+  // AI CHAT
+  // -----------------------------------------
+  "chat.disableAIFeatures": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true
+  },
+  "editor.aiStats.enabled": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  }
+}
