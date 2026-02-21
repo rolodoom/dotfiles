@@ -48,10 +48,10 @@ alias dcd="docker compose down"
 
 ## Git
 
-Fetches remote, removes local changes, pulls latest
+Force sync local branch, delete untracked files.
 
 ```bash
-git fetch && git reset --hard HEAD && git pull
+git fetch origin && git reset --hard origin/main && git clean -fd
 ```
 
 ### Show last 5 commits
