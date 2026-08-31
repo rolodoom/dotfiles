@@ -18,7 +18,9 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 ### Clone the repository
 
 ```shell
-git clone --depth 1 https://github.com/rolodoom/dotfiles ~/.config/nvim
+git clone --depth 1 https://github.com/rolodoom/dotfiles
+mv dotfiles/config/nvim ~/.config/
+rm -rf dotfiles
 ```
 
 ### Start Neovim
