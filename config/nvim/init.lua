@@ -25,14 +25,3 @@ end
 
 require "lazy_setup"
 require "polish"
-
-
--- view hidden files by default
-require("neo-tree").setup({
-    filesystem = {
-        filtered_items = {
-            visible = true,
-            hide_dotfiles = false,
-        }
-    }
-})
