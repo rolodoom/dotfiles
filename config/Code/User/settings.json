@@ -2,7 +2,6 @@
   // -----------------------------------------
   // G E N E R A L
   // -----------------------------------------
-
   // Trust
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.enabled": false,
@@ -14,12 +13,12 @@
 
   // Editor
   "editor.fontFamily": "\"Fira Code\", Consolas, 'Courier New', monospace",
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
 
   // Prettier
-  "editor.formatOnSave": true,
   "prettier.singleQuote": true,
   "prettier.semi": false,
 
@@ -27,10 +26,11 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.browser.openLocalhostLinks": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Nord",
-  "workbench.preferredLightColorTheme": "Dark Modern",
-  "workbench.preferredDarkColorTheme": "Breeze Dark",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+
   "workbench.productIconTheme": "material-product-icons",
   "workbench.editorAssociations": {
     "*.svg": "default",
@@ -54,7 +54,6 @@
   // -----------------------------------------
   // L A N G s
   // -----------------------------------------
-
   "[javascript][javascriptreact][typescript][typescriptreact][css][scss][html][json][jsonc][markdown][mdx][yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
@@ -71,6 +70,10 @@
   "[php]": {
     "editor.defaultFormatter": "kokororin.vscode-phpfmt",
   },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+  },
 
   "js/ts.updateImportsOnFileMove.enabled": "always",
 
@@ -78,11 +81,8 @@
   // A I  &  C H A T
   // -----------------------------------------
   "chat.disableAIFeatures": true,
-
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
   },
-
   "editor.aiStats.enabled": false,
-  "workbench.editor.enablePreview": false,
 }

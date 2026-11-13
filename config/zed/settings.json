@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "theme": {
+    "mode": "system",
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte",
+  },
+  "cli_default_open_behavior": "existing_window",
   "project_panel": {
     "dock": "left",
   },
@@ -22,6 +28,9 @@
     "font_size": 15.0,
     "font_family": "MesloLGS NF",
     "font_fallbacks": ["Ubuntu Sans Mono"],
+    "shell": {
+      "program": "/bin/zsh",
+    },
   },
   "base_keymap": "VSCode",
   "minimap": {
